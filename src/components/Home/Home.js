@@ -30,7 +30,7 @@ class Home extends React.Component {
                     <li key={post.id}>{post.title}</li>
                 ))}
                 <img src={img} alt="home" width="200px" height="150px" />
-                <button class="my-btn" onClick={() => this.doSomething()}>Click</button>
+                <button className="my-btn" onClick={() => this.doSomething()}>Click</button>
             </div>
         );
     }
