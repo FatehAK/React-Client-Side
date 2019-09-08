@@ -1,0 +1,22 @@
+.about {
+    width: 500px;
+    height: 500px;
+    background: #a3fd87;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+    border: 1px solid black;
+}
+
+.about-state {
+    font-family: 'Pacifico', cursive;
+    font-size: 1.2rem;
+    color: #f15eb4;
+}
+
+.about-props {
+    font-family: 'Lato', sans-serif;
+    color: #84c2db;
+}

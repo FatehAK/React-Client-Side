@@ -1,0 +1,22 @@
+.contact {
+    width: 500px;
+    height: 500px;
+    background: #f17d7d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+    border: 1px solid black;
+}
+
+.contact-state {
+    font-family: 'Pacifico', cursive;
+    font-size: 1.2rem;
+    color: #585858;
+}
+
+.contact-props {
+    font-family: 'Lato', sans-serif;
+    color: #5a687e;
+}
