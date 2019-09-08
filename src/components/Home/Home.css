@@ -1,7 +1,7 @@
 .home {
     width: 500px;
     height: 500px;
-    background: rgb(110, 226, 255);
+    background: #6ee2ff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,7 +13,7 @@
 .home-state {
     font-family: 'Pacifico', cursive;
     font-size: 1.2rem;
-    color: rgb(129, 98, 45);
+    color: #81622d;
 }
 
 .home-props {
@@ -22,7 +22,8 @@
 }
 
 .my-btn {
-    border: 0;
-    padding: 10px;
-    color: lightblue;
+    padding: 10px 15px 10px 15px;
+    margin: 10px;
+    border: 1px solid black;
+    background: #f2ffc4;
 }
