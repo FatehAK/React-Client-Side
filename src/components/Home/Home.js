@@ -11,12 +11,11 @@ class Home extends React.Component {
     };
 
     async componentDidMount() {
-        // const response = await fetch('https://jsonplaceholder.typicode.com/posts');
-        // const data = await response.json();
-        // this.setState({
-        //     posts: data.slice(0, 5)
-        // });
         this.props.fetchPosts();
+    }
+
+    doSomething() {
+        console.log('foo');
     }
 
     render() {
@@ -31,6 +30,7 @@ class Home extends React.Component {
                     <li key={post.id}>{post.title}</li>
                 ))}
                 <img src={img} alt="home" width="200px" height="150px" />
+                <button class="my-btn" onClick={() => this.doSomething()}>Click</button>
             </div>
         );
     }

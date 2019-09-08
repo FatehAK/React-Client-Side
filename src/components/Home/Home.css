@@ -20,3 +20,9 @@
     font-family: 'Lato', sans-serif;
     color: purple;
 }
+
+.my-btn {
+    border: 0;
+    padding: 10px;
+    color: lightblue;
+}
