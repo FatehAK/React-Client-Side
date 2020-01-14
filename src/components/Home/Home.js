@@ -29,6 +29,7 @@ class Home extends React.Component {
     }
 
     render() {
+        console.log('with changes');
         return (
             <div className="home">
                 <Helmet>
