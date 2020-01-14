@@ -10,7 +10,17 @@ class Home extends React.Component {
         text: 'Home (from state)'
     };
 
-    async componentDidMount() {
+    componentDidMount() {
+        window.addEventListener('message', this.handleMessage);
+        this.asyncFetch();
+    }
+
+    handleMessage = (evt) => {
+        console.log('evt', evt);
+        console.log('the data', evt.data);
+    };
+
+    asyncFetch = async () => {
         this.props.fetchPosts();
     }
 
