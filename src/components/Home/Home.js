@@ -17,7 +17,10 @@ class Home extends React.Component {
 
     handleMessage = (evt) => {
         console.log('evt', evt);
-        console.log('the data', evt.data);
+        //also chech the origin
+        if(evt.origin === 'https://iframe-tester.netlify.com') {
+            console.log('the data', evt.data);
+        }
     };
 
     asyncFetch = async () => {
